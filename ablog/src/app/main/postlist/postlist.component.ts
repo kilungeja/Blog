@@ -7,11 +7,6 @@ import { Component, OnInit } from '@angular/core';
 export class PostlistComponent implements OnInit {
   constructor() {}
   //   posts: [{ post_title: string; post_body: string }] = [
-  posts = [
-    {
-      post_title: 'Corona outbreak',
-      post_body: 'There has been an  '
-    }
-  ];
+  posts = [];
   ngOnInit() {}
 }
